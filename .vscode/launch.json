@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
+            "args": [],
+            "preLaunchTask": "g++",
+            "stdio": ["${fileDirname}/test_input"],
+            "terminal": "integrated"
+        }
+    ]
+}
